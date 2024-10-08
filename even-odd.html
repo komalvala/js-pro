@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    
+</body>
+<script>
+function checkEvenOrOdd() {
+    const userInput = prompt("Enter a number:");
+    const number = parseInt(userInput);
+
+    if (!isNaN(number)) {
+        console.log(number % 2 === 0 ? "Even" : "Odd");
+    } else {
+        console.log("Please enter a valid number.");
+    }
+}
+
+checkEvenOrOdd();
+</script>
+</html>
